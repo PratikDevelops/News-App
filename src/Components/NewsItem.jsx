@@ -2,6 +2,8 @@ import React from 'react';
 import './NewsItem.css'; 
 
 function NewsItem({ title, description, src, url }) {
+  console.log(url);  // Check the URL here
+
   return (
     <div className="news-item">
       <img
